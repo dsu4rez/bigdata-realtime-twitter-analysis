@@ -1,6 +1,8 @@
 # bigdata-realtime-twitter-analysis
 Personal project where I perform some analytics (including Sentiment Analysis) over a Twitter Stream using Big Data Technologies of the Hadoop echosystem such as Flume, Kafka, and Spark Streaming.
 
+![Project Architecture](http://davidiscoding.com/wp-content/uploads/2019/06/Screenshot-2019-06-11-at-11.07.57-1024x582.png)
+
 If you want to know more about this project, you can see a detailed explanation in my persoanal blog [here](http://davidiscoding.com/real-time-twitter-sentiment-analysis-pt-1-introduction).
 
 This Git repository contains:
