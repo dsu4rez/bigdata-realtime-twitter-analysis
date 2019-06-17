@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Real-Time Twitter Sentiment Analysis</title>
+    <script src="static/js/lib/Chart.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/css/dashboard.css">
+
+</head>
+<body>
+    <div class="header">
+
+        <div class="counter_container title">
+            <h3>Real-Time Twitter Analysis</h3>
+            <p>Last 15min in California USA</p>
+        </div>
+
+        <div class="counter_container total_counter">
+            <p class="counter_title">Tweets Analyzed</p>
+            <h3 id="total_counter_value">0</h3>
+        </div>
+
+        <div id="negative_counter_container" class="counter_container">
+            <p class="counter_title">Negative</p>
+            <h3 id="negative_counter">0%</h3>
+        </div>
+
+        <div id="neutral_counter_container" class="counter_container">
+            <p class="counter_title">Neutral</p>
+            <h3 id="neutral_counter">0%</h3>
+        </div>
+
+        <div id="positive_counter_container" class="counter_container">
+            <p class="counter_title">Positive</p>
+            <h3 id="positive_counter">0%</h3>
+        </div>
+
+        <script src="static/js/counters_setter.js"></script>
+    </div>
+
+    <div id="most_used_hashtags_container" class="chart_container">
+        <h3>Most Used Hashtags (#)</h3>
+        <div>
+            <canvas id="most_used_hashtags_chart"></canvas>
+            <script src="static/js/most_used_hashtags_chart.js"></script>
+        </div>
+    </div>
+
+    <div id="most_mentioned_users_container" class="chart_container">
+        <h3>Most Mentioned Users (@)</h3>
+        <div>
+            <canvas id="most_mentioned_users_chart"></canvas>
+            <script src="static/js/most_mentioned_users_chart.js"></script>
+        </div>
+    </div>
+
+    <div id="most_active_users_container" class="chart_container">
+        <h3>Most Active Users</h3>
+        <div>
+            <canvas id="most_active_users_chart"></canvas>
+            <script src="static/js/most_active_users_chart.js"></script>
+        </div>
+    </div>
+
+    <div class="chart_container">
+        <img style="height: 300px;" src="http://davidiscoding.com/wp-content/uploads/2019/06/Screenshot-2019-06-11-at-11.07.57-1024x582.png">
+    </div>
+
+</body>

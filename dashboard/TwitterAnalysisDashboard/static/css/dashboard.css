@@ -1,0 +1,47 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.counter_container {
+    float: left;
+    width: 20%;
+    text-align: center;
+    background-color: #E1E8ED;
+    height: 100px;
+}
+
+.title {
+    background: #657786 !important;
+    color: #FFF;
+}
+
+.total_counter {
+    background-color: #AAB8C2; !important;
+    text-align:center;
+}
+
+.chart_container{
+    width: 45%;
+    float: left;
+    margin: 1%;
+    text-align: center;
+}
+
+#most_used_hashtags_container {
+
+}
+
+#most_mentioned_users_container {
+
+}
+
+#most_active_users_container {
+
+}

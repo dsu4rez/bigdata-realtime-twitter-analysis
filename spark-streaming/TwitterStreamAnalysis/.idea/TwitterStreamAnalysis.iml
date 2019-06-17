@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <content url="jar:///opt/cloudera/parcels/SPARK2/lib/spark2/python/lib/py4j-0.10.7-src.zip!/" />
+    <content url="jar:///opt/cloudera/parcels/SPARK2/lib/spark2/python/lib/pyspark.zip!/" />
+    <orderEntry type="jdk" jdkName="Python 2.7 (TwitterStreamAnalysis)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
+</module>
