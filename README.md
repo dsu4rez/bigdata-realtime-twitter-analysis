@@ -10,6 +10,6 @@ This Git repository contains:
   - Custom Components to Stream and Filter Tweets (Custom Event Driven Source and Custom Interceptor)
   - Flume Agent Configuration File
   
-- Spark Streaming Code in Python for a real-time Twitter analysis using TextBlob for sentiment analysis.
+- Spark Streaming: Code in Python for a real-time Twitter sentiment analysis using TextBlob (PyCharm Project)
 
-- Web Application for displaying the results
+- Dashboard: Flask Web Application for displaying the results using Chart.js (PyCharm Project)
