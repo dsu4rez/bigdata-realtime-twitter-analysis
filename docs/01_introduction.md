@@ -8,7 +8,7 @@ For this purpose, I opted for performing a real-time sentiment analysis over thi
 
 The following picture illustrates the architecture and the data pipeline designed for this project.
 
-![Project Architecture](https://camo.githubusercontent.com/76c1c0924a6aa552b15a2cadef0d65a60dce97f3bf178dbe54d5bf84c17040d9/687474703a2f2f64617669646973636f64696e672e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031392f30362f53637265656e73686f742d323031392d30362d31312d61742d31312e30372e35372d31303234783538322e706e67)
+![Project Architecture](./images/Screenshot-2019-06-11-at-11.07.57-1024x582.png)
 
 
 First, we need a stream of tweets from Twitter, to do so, we’ll make use of the Twitter API.
